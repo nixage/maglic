@@ -1146,6 +1146,12 @@ textarea.input {
   margin: 0px 0px 35px 0px;
 }
 
+@media (max-width: 576.98px) {
+  .portfolio__our-work {
+    margin: 0px 0px 15px 0px;
+  }
+}
+
 .tabs-portfolio__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1178,11 +1184,18 @@ textarea.input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0px -7.5px;
   }
 }
 
 .tabs-portfolio__item {
   margin: 15px;
+}
+
+@media (max-width: 576.98px) {
+  .tabs-portfolio__item {
+    margin: 7.5px;
+  }
 }
 
 .tabs-portfolio__item:last-child .btn {
@@ -2636,20 +2649,21 @@ textarea.input {
   }
 }
 
-.item-cards-pricing.active {
-  -webkit-transform: translate(0, -20px);
-      -ms-transform: translate(0, -20px);
-          transform: translate(0, -20px);
-  -webkit-box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
-}
-
-.item-cards-pricing.active .item-cards-pricing__link {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  z-index: 1;
-  bottom: 0;
+@media (min-width: 767.98px) {
+  .item-cards-pricing.active {
+    -webkit-transform: translate(0, -20px);
+        -ms-transform: translate(0, -20px);
+            transform: translate(0, -20px);
+    -webkit-box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
+  }
+  .item-cards-pricing.active .item-cards-pricing__link {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 1;
+    bottom: 0;
+  }
 }
 
 .item-cards-pricing__title {
@@ -2781,8 +2795,38 @@ textarea.input {
   padding: 45px 0px 0px 0px;
 }
 
+@media (max-width: 767.98px) {
+  .contacts {
+    padding: 25px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .contacts {
+    padding: 15px 0px 0px 0px;
+  }
+}
+
 .contacts__top {
   margin: 0px 0px 80px 0px;
+}
+
+@media (max-width: 992.98px) {
+  .contacts__top {
+    margin: 0px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contacts__top {
+    margin: 0px 0px 40px 0px;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .contacts__top {
+    margin: 0px 0px 20px 0px;
+  }
 }
 
 .contacts__body {
@@ -2816,6 +2860,24 @@ textarea.input {
 
 .contacts__info {
   margin: 0px 0px 100px 0px;
+}
+
+@media (max-width: 992.98px) {
+  .contacts__info {
+    margin: 0px 0px 80px 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contacts__info {
+    margin: 0px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .contacts__info {
+    margin: 0px 0px 40px 0px;
+  }
 }
 
 .info-contacts__row {
